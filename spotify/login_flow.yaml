@@ -1,0 +1,31 @@
+url: https://open.spotify.com/
+---
+- launchApp
+- tapOn:
+    id: login-button
+- tapOn:
+    id: username
+    index: 1
+- inputText: "re784899@gmail.com"
+- tapOn:
+    id: login-button
+- tapOn:
+    id: Digit 1 of 6, enter the login code sent to your email
+- inputText: "5"
+- tapOn:
+    id: Digit 2 of 6, enter the login code sent to your email
+- inputText: "2"
+- tapOn:
+    id: Digit 3 of 6, enter the login code sent to your email
+- inputText: "1"
+- tapOn:
+    id: Digit 4 of 6, enter the login code sent to your email
+- inputText: "4"
+- tapOn:
+    id: Digit 5 of 6, enter the login code sent to your email
+- inputText: "2"
+- tapOn:
+    id: Digit 6 of 6, enter the login code sent to your email
+- inputText: "9"
+- tapOn: Log in
+                

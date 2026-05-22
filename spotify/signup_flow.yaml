@@ -1,0 +1,38 @@
+url: https://open.spotify.com/
+---
+- launchApp
+
+- tapOn: Sign up
+- tapOn: name@domain.com
+
+- inputText: "re784899@gmail.com"
+- tapOn:
+    id: submit
+- tapOn:
+    id: new-password
+    index: 1
+- inputText: "Va22un.2004"
+- tapOn:
+    id: submit
+- tapOn:
+    id: displayName
+    index: 1
+- inputText: "Varun"
+- tapOn:
+    id: year
+    index: 1
+- inputText: "2004"    
+- tapOn:
+    id: month
+
+- tapOn: "January"       
+- tapOn:
+    id: day
+- inputText: "22"
+- tapOn: Man
+- tapOn:
+    id: submit    
+- tapOn: I would prefer not to receive marketing messages from Spotify
+- tapOn: Share my registration data with Spotify's content providers for marketing purposes.
+- tapOn:
+    id: submit    

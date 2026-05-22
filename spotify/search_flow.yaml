@@ -1,0 +1,12 @@
+url: https://open.spotify.com
+---
+- launchApp
+- tapOn:
+    id: Search
+- inputText: "Shape of You"
+- tapOn:
+    point: 41%,27%
+- tapOn:
+    text: Shape of You
+    index: 2
+
